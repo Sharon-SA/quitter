@@ -14,7 +14,8 @@
           >
             <template v-slot:before>
               <q-avatar size="xl">
-                <img src="https:/cdn.quasar.dev/img/avatar5.jpg" />
+                <!-- <img src="https:/cdn.quasar.dev/img/avatar5.jpg" /> -->
+                <img :src="require('../assets/sharon.jpeg')"></img>
               </q-avatar>
             </template>
           </q-input>
@@ -45,7 +46,8 @@
         <q-item v-for="qweet in qweets" :key="qweet.date" class="q-py-md">
           <q-item-section avatar top>
             <q-avatar>
-              <img src="https:/cdn.quasar.dev/img/avatar5.jpg" />
+              <!-- <img src="https:/cdn.quasar.dev/img/avatar5.jpg" /> -->
+              <img :src="require('../assets/sharon.jpeg')"></img>
             </q-avatar>
           </q-item-section>
 
