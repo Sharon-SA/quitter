@@ -15,7 +15,7 @@
             <template v-slot:before>
               <q-avatar size="xl">
                 <!-- <img src="https:/cdn.quasar.dev/img/avatar5.jpg" /> -->
-                <img :src="require('../assets/sharon.jpeg')"></img>
+                <img :src="require('../assets/froghead.jpeg')" />
               </q-avatar>
             </template>
           </q-input>
@@ -47,7 +47,7 @@
           <q-item-section avatar top>
             <q-avatar>
               <!-- <img src="https:/cdn.quasar.dev/img/avatar5.jpg" /> -->
-              <img :src="require('../assets/sharon.jpeg')"></img>
+              <img :src="require('../assets/froghead.jpeg')" />
             </q-avatar>
           </q-item-section>
 
